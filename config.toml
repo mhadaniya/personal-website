@@ -1,0 +1,195 @@
+baseURL = "https://mhadaniya.github.io/"
+# languageCode = "en"
+title = "Mario H. Adaniya"
+theme = "academic"
+
+copyright = "&copy; 2017 Mario H. Adaniya"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+DefaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = true
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  name = "Mario H. Adaniya"
+  role = "Programador, Professor e Pesquisador"
+  organization = "Centro Universitário Filadélfia (UniFil)"
+  organization_url = "http://dc.unifil.br"
+  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "mhadaniya@gmail.com"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
+  telegram = ""
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = "mhadaniya"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Jan 2, 2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = true
+  highlight = true
+  highlight_languages = []
+  # highlight_style = "github"
+  # highlight_version = "9.9.0"
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = []
+  custom_js  = []
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Conference proceedings',  # 1
+    'Journal',  # 2
+    'Work in progress',  # 3
+    'Technical report',  # 4
+    'Book',  # 5
+    'Book chapter'  # 6
+  ]
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:mario.adaniya[at]unifil.br"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/mhadaniya"
+
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.com/citations?user=sSySZFMAAAAJ"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/mhadaniya"
+
+
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[Languages.en.menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[Languages.en.menu.main]]
+  name = "Publications"
+  url = "#publications_selected"
+  weight = 2
+
+[[Languages.en.menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
+
+[[Languages.en.menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
+
+[[Languages.en.menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
+
+[[Languages.en.menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
+
+
+  [[Languages.pt.menu.main]]
+    name = "Home"
+    url = "#about"
+    weight = 1
+
+  [[Languages.pt.menu.main]]
+    name = "Publicações"
+    url = "#publications_selected"
+    weight = 2
+
+  [[Languages.pt.menu.main]]
+    name = "Posts"
+    url = "#posts"
+    weight = 3
+
+  [[Languages.pt.menu.main]]
+    name = "Projetos"
+    url = "#projects"
+    weight = 4
+
+  [[Languages.pt.menu.main]]
+    name = "Disciplinas"
+    url = "#teaching"
+    weight = 5
+
+  [[Languages.pt.menu.main]]
+    name = "Contato"
+    url = "#contact"
+    weight = 6
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+
+# Languages
+#   Create a [languages.X] block for each language you want, where X is the language ID.
+
+# Configure the English version of the website.
+[languages.en]
+  languageCode = "en-us"
+
+[languages.pt]
+  languageCode = "pt-br"
