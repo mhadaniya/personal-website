@@ -14,10 +14,12 @@ weight = 60
 
 +++
 
-Disciplinas que atualmente estou ministrando no [Centro Universitário Filadélfia (UniFil)](www.unifil.br/portal):
+Disciplinas que atualmente leciono no [Centro Universitário Filadélfia (UniFil)](www.unifil.br/portal):
 
 - [COMP3007: Arquitetura e Organização de Computadores](/disciplinas/comp3007)
-- COMP2022:	Técnicas de Programação II
-- COMP2028:	Laboratório de Computação III
-- COMP2032: Redes de Computadores
+- [COMP2022:	Técnicas de Programação II](/disciplinas/comp2022)
+- [COMP2028:	Laboratório de Computação III](/disciplinas/comp2028)
+- [COMP2032: Redes de Computadores](/disciplinas/comp2032)
 - COMP2035: Laboratório de Computação IV
+
+@Alunos, não deixem de acessar o [moodle](http://trab.dc.unifil.br/moodle) e o [portal do estudante](http://portal.filadelfia.br).
